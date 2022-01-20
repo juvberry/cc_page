@@ -116,6 +116,7 @@ p {
     display: flex;
     flex-flow: row;
     justify-content: center;
+    box-shadow: 0px 2px 28px #161718;
 }
 
 .product {
@@ -180,13 +181,20 @@ img {
 
 
 .ccinfo {
+    height: 83%;
     width: 66%;
     display: flex;
     flex-flow: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding-top: 40px;
-    color: #8D8F96;
+    padding-top: 26px;
+    color: #C9CFD8;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.ccinfo label{
+    font-size: 12px;
 }
 
 .box-input {
@@ -235,4 +243,31 @@ img {
 
 #noborder {
     border: none;
+}
+
+.buy {
+    position: absolute;
+    bottom: -22px;
+    right: 10px;
+    width: 33%;
+}
+
+.buy .box-input {
+    border: 0;
+}
+
+.buy .box-input input[type=submit] {
+    height: 44px;
+    border: 0;
+    background-color: #F79A71;
+    color: #BB6845;
+    box-shadow: -2px 6px 24px #F79A71;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+.buy .box-input input[type=submit]:hover {
+    background-color: #F3F3F3;
+    border: 1px solid #F79A71;
+    color: #F79A71;
 }
