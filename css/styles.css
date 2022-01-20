@@ -1,0 +1,238 @@
+/* background */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    font-family: 'Roboto', serif;
+    position: relative;
+}
+
+/* gray container */
+
+.total-container {
+    background-color: #525B68;
+    width: 788px;
+    height: 80%;
+    position: absolute;
+    margin-left: 175px;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+.left {
+    padding-left: 42px;
+    padding-top: 116px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+p {
+    text-transform: uppercase;
+    color: #8D8F96;
+}
+
+.white {
+    color: #fff;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    letter-spacing: 6px;
+    width: 206px;
+    line-height: 20px;
+}
+
+#ever {
+    color: #F89B72;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    padding-bottom: 16px;
+}
+
+.total {
+    height: 182px;
+    border-top: 1px solid #8D8F96;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.total p {
+    letter-spacing: 2.5px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.total p.white {
+    padding-top: 8px;
+    line-height: normal;
+    height: 66px;
+    font-size: 52px;
+    text-shadow: 4px 2px 8px #161718;
+}
+
+.save {
+    width: 362px;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    padding-bottom: 32px;
+    justify-content: flex-end;
+}
+
+.save input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    margin: 0px 6px 0 0;
+}
+
+.save label {
+    color: #8D8F96;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+
+/* ccinfo container */
+
+.ccinfo-container {
+    background-color: #F3F3F3;
+    width: 44vw;
+    height: 56%;
+    position: absolute;
+    left: 476px;
+    top: 48%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 44%;
+    padding: 36px;
+}
+
+.details-box {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.details-box .material-icons {
+    color: #C9CFD8;
+    font-size: 15px;
+}
+
+.details-box input[type=text] {
+    border: 1px solid transparent;
+    background-color: #F3F3F3;
+    width: 166px;
+    padding: 0;
+    margin-left: 5px;
+    font-family: 'ROBOTO';
+    outline: none;
+}
+
+.details-box input::placeholder {
+    color: #C9CFD8;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+img {
+    padding-top: 12px;
+    width: 70%;
+}
+
+.rating {
+    padding-top: 10px;
+}
+
+.rating .material-icons {
+    color: #F6D07B;
+    font-size: 14px;
+}
+
+#opacity {
+    opacity: .5;
+}
+
+.linked {
+    color: #C9CFD8;
+    font-size: 12px;
+    padding-top: 6px;
+}
+
+
+.ccinfo {
+    width: 66%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 40px;
+    color: #8D8F96;
+}
+
+.box-input {
+    border-bottom: 1px solid #C9CFD8;
+    display: flex;
+    flex-flow: column;
+    width: 86%;
+}
+
+.box-input input[type=text],
+.box-input input[type=number],
+.box-input input[type=date]{
+    border: none;
+    background-color: #F3F3F3;
+    color: #525B68;
+    padding: 8px 0 8px;
+    outline: none;
+}
+
+.box-ccv {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.date-box {
+    display: flex;
+    flex-flow: column;
+}
+
+.date-box input[type=month] {
+    width: 92%;
+    border: none;
+    background-color: #F3F3F3;
+    color: #525B68;
+    border-bottom: 1px solid #C9CFD8;
+    padding: 8px 0 8px;
+    outline: none;
+}
+
+.date-box input[type=number]{
+    width: 46px;
+    border-bottom: 1px solid #C9CFD8;
+}
+
+#noborder {
+    border: none;
+}

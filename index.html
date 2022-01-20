@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--icons & fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="total-container">
+            <div class="left">
+                <div>
+                    <p id="ever">
+                        Everlane
+                    </p>
+                    <p class="white">
+                        The Twill Snap Backpack One
+                    </p>
+                </div>
+                <div class="total">
+                    <p>
+                        Order total
+                    </p>
+                    <p class="white">
+                        87.41
+                    </p>
+                </div>
+            </div>
+            <div class="save">
+                <input type="checkbox" name="saveinfo" id="saveinfo" value="saveinfo">
+                <label for="saveinfo">Save my information for later</label>
+            </div>
+        </section>
+        <section class="ccinfo-container">
+            <div class="product">
+                <div class="details-box">
+                    <span class="material-icons material-icons-outlined">
+                        search
+                    </span>
+                    <input type="text" name="details" id="details" placeholder="mouseover for details">
+                </div>
+                <img src="../cc_page/img/backpack.jpg" alt="backpack being hold">
+                <div class="rating">
+                    <span class="material-icons material-icons-outlined">
+                        star
+                    </span>
+                    <span class="material-icons material-icons-outlined">
+                        star
+                    </span>
+                    <span class="material-icons material-icons-outlined">
+                        star
+                    </span>
+                    <span class="material-icons material-icons-outlined">
+                        star
+                    </span>
+                    <span class="material-icons material-icons-outlined" id="opacity">
+                        star
+                    </span>
+                </div>
+                <p class="linked">
+                    see all reviews
+                </p>
+            </div>
+            <div class="ccinfo">
+                <div class="box-input">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="box-input">
+                    <label for="ccnumber">Card Number</label>
+                    <input type="number" name="ccnumber" id="ccnumber">
+                </div>
+                <div class="box-input" id="noborder">
+                    <div class="box-ccv">
+                        <div class="date-box">
+                            <label for="month">Expires</label>
+                            <input type="month" name="ccexpires" id="ccexpires">
+                        </div>
+                        <div class="date-box">
+                            <label for="ccv">CCV</label>
+                            <input type="number" name="ccv" id="ccv">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-input">
+                    <input type="submit" class="btn-buy" value="buy now">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
